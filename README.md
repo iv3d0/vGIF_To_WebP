@@ -21,7 +21,7 @@ Before using the script, make sure you have:
 
 1. **Clone the repository** or download the `.bat` script to your local machine.
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/iv3d0/vGIF_To_WebP.git
    cd your-repository
    Place the script in the same folder as the GIF files you want to convert.
    ```
@@ -35,17 +35,8 @@ Loop: Enter y if you want the WebP to loop indefinitely, or n otherwise.
 The converted files will be saved in an output_webp folder in the same directory.
 
 Example Usage
-Place all your GIFs and the script in the same folder.
-Run the script.
-Enter the desired compression quality (e.g., 50 for medium quality).
-Choose whether the WebP should loop (y for yes, n for no).
-All converted WebP files will be saved in the output_webp folder.
-Script Breakdown
-GIF Conversion: Uses ffmpeg to convert .gif files to .webp format with options for compression and looping.
-Automatic ffmpeg Download: If ffmpeg is not found in the folder, it is downloaded and extracted automatically.
-Output Folder: The converted WebP files are saved in a subfolder called output_webp.
-Troubleshooting
-ffmpeg not found: If the script cannot find or download ffmpeg, ensure that you have an active internet connection and that curl is installed.
-No GIFs found: Make sure you place the script in the same directory as your GIF files or move your GIFs into the same folder as the script.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Place all your GIFs and the script in the same folder.
+- Run the script.
+- Enter the desired compression quality (e.g., 50 for medium quality).
+- Choose whether the WebP should loop (y for yes, n for no).
+- All converted WebP files will be saved in the output_webp folder.
